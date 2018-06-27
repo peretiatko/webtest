@@ -1,0 +1,1 @@
+docker run --name webtest -v d:\git\webtest\:/etc/nginx/nginx.conf:ro -d -p 8080:80 nginx
